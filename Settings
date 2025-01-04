@@ -1,0 +1,106 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Decompiler will be improved soon!
+-- Decompiled with Konstant V2.1, a fast Luau decompiler made in Luau by plusgiant5 (https://discord.gg/wyButjTMhM)
+-- Decompiled on 2025-01-04 11:47:33
+-- Luau version 6, Types version 3
+-- Time taken: 0.001176 seconds
+
+local Multipliers_upvr = require(game.ReplicatedStorage.Framework.Shared.Multipliers)
+local module = {}
+local tbl_4 = {
+    Type = "TextBoxOptions";
+}
+local tbl = {}
+local tbl_2 = {
+    StatName = "FlySpeed";
+    Min = 0;
+}
+local function Max(arg1) -- Line 10
+    --[[ Upvalues[1]:
+        [1]: Multipliers_upvr (readonly)
+    ]]
+    return Multipliers_upvr.GetMaxFlySpeed(arg1)
+end
+tbl_2.Max = Max
+tbl.Fly = tbl_2
+local tbl_3 = {
+    StatName = "JumpSpeed";
+    Min = 0;
+}
+local function Max(arg1) -- Line 14
+    --[[ Upvalues[1]:
+        [1]: Multipliers_upvr (readonly)
+    ]]
+    return Multipliers_upvr.GetMaxJumpSpeed(arg1)
+end
+tbl_3.Max = Max
+tbl.Jump = tbl_3
+tbl.Movement = {
+    StatName = "MovementSpeed";
+    Min = 0;
+    Max = function(arg1) -- Line 18, Named "Max"
+        --[[ Upvalues[1]:
+            [1]: Multipliers_upvr (readonly)
+        ]]
+        return Multipliers_upvr.GetMaxMovementSpeed(arg1)
+    end;
+}
+tbl_4.Options = tbl
+module.Movement = tbl_4
+module["Stat Popup"] = {
+    Type = "ToggleOptions";
+    Options = {
+        Strength = "StrengthPopup";
+        Health = "HealthPopup";
+        Immunity = "ImmunityPopup";
+        Psychics = "PsychicsPopup";
+        Magic = "MagicPopup";
+        Mobility = "MobilityPopup";
+    };
+}
+module.SaveLocation = {
+    Type = "Toggle";
+    Stat = "LocationSaved";
+}
+module.Damage = {
+    Type = "ToggleOptions";
+    Options = {
+        Heroes = "DamageHeroes";
+        Neutral = "DamageNeutral";
+        Villains = "DamageVillains";
+    };
+}
+module.MusicVolume = {
+    Type = "Slider";
+    Stat = "MusicVolume";
+    Min = 0;
+    Max = 100;
+    Suffix = '%';
+}
+module.BackgroundVolume = {
+    Type = "Slider";
+    Stat = "BackgroundVolume";
+    Min = 0;
+    Max = 100;
+    Suffix = '%';
+}
+module.DayNightCycle = {
+    Type = "Toggle";
+    Stat = "DayNightCycle";
+}
+module.WindowSize = {
+    Type = "Slider";
+    Stat = "WindowSize";
+    Min = 0.5;
+    Max = 0.9;
+    Suffix = 'x';
+}
+module.WindowTransparency = {
+    Type = "Slider";
+    Stat = "WindowTransparency";
+    Min = 20;
+    Max = 60;
+    Suffix = '%';
+}
+return module
