@@ -1,0 +1,405 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Decompiler will be improved soon!
+-- Decompiled with Konstant V2.1, a fast Luau decompiler made in Luau by plusgiant5 (https://discord.gg/wyButjTMhM)
+-- Decompiled on 2025-01-04 11:47:38
+-- Luau version 6, Types version 3
+-- Time taken: 0.005611 seconds
+
+return {
+    MainTask = {{
+        NeedToDo = {{
+            StatName = "Power";
+            StatAmount = 30;
+            GetStat = true;
+        }};
+        Reward = 100;
+        OneTime = true;
+        QuestName = "Getting Started";
+        QuestDescription = "Get 30 Power";
+        Unlock = {
+            Icons = {"http://www.roblox.com/asset/?id=74066848071808", "http://www.roblox.com/asset/?id=90707760506867"};
+            Desc = {"Punch Ability", "Train Health"};
+        };
+    }, {
+        NeedToDo = {{
+            StatName = "Health";
+            StatAmount = 50;
+            GetStat = true;
+        }};
+        Reward = 100;
+        OneTime = true;
+        QuestName = "Getting Thougher";
+        QuestDescription = "Get 50 Health";
+        Unlock = {
+            Icons = {"http://www.roblox.com/asset/?id=124056388718029"};
+            Desc = {"Train Psychics"};
+        };
+    }, {
+        NeedToDo = {{
+            StatName = "Psychics";
+            StatAmount = 50;
+            GetStat = true;
+        }};
+        Reward = 100;
+        OneTime = true;
+        QuestName = "Meditation is Important";
+        QuestDescription = "Get 50 Psychics";
+        Unlock = {
+            Icons = {"http://www.roblox.com/asset/?id=113918054944716"};
+            Desc = {"Train Defense"};
+        };
+    }, {
+        NeedToDo = {{
+            StatName = "Defense";
+            StatAmount = 100;
+            GetStat = true;
+        }};
+        Reward = 150;
+        OneTime = true;
+        QuestName = "Self Defense";
+        QuestDescription = "Get 100 Defense";
+        Unlock = {
+            Icons = {"http://www.roblox.com/asset/?id=123923683191028", "http://www.roblox.com/asset/?id=122817545880486"};
+            Desc = {"Block Ability", "Train Mobility"};
+        };
+    }, {
+        NeedToDo = {{
+            StatName = "Mobility";
+            StatAmount = 150;
+            GetStat = true;
+        }};
+        Reward = 200;
+        OneTime = true;
+        QuestName = "Lets Run Faster";
+        QuestDescription = "Get 150 Mobility";
+        Unlock = {
+            Icons = {"http://www.roblox.com/asset/?id=72937929351412"};
+            Desc = {"Weights"};
+        };
+    }, {
+        NeedToDo = {{
+            StatName = "Power";
+            StatAmount = 300;
+            GetStat = true;
+        }, {
+            StatName = "Health";
+            StatAmount = 300;
+            GetStat = true;
+        }};
+        Reward = 500;
+        OneTime = true;
+        QuestName = "Major Improvement";
+        QuestDescription = "Get 300 Health and 300 Power";
+        Unlock = {
+            Icons = {};
+            Desc = {};
+        };
+    }, {
+        NeedToDo = {{
+            StatName = "Mobility";
+            StatAmount = 600;
+            GetStat = true;
+        }};
+        Reward = 200;
+        OneTime = true;
+        QuestName = "Gotta go fast !";
+        QuestDescription = "Get 600 Mobility";
+        Unlock = {
+            Icons = {"http://www.roblox.com/asset/?id=112170708682660"};
+            Desc = {"Sprint"};
+        };
+    }, {
+        NeedToDo = {{
+            StatName = "Health";
+            StatAmount = 1000;
+            GetStat = true;
+        }, {
+            StatName = "Defense";
+            StatAmount = 500;
+            GetStat = true;
+        }};
+        Reward = 250;
+        OneTime = true;
+        QuestName = "Get the gym kit";
+        QuestDescription = "Get 1,000 Health and 500 Defense";
+        Unlock = {
+            Icons = {"http://www.roblox.com/asset/?id=123843217020966"};
+            Desc = {"Gym Kit"};
+        };
+    }, {
+        NeedToDo = {{
+            StatName = "Power";
+            StatAmount = 1250;
+            GetStat = true;
+        }, {
+            StatName = "Psychics";
+            StatAmount = 500;
+            GetStat = true;
+        }};
+        Reward = 300;
+        OneTime = true;
+        QuestName = "First Ability";
+        QuestDescription = "Get 1,250 Power and 500 Psychics";
+        Unlock = {
+            Icons = {"http://www.roblox.com/asset/?id=88309835672385"};
+            Desc = {"Fireball Ability"};
+        };
+    }, {
+        NeedToDo = {{
+            StatName = "Power";
+            StatAmount = 2500;
+            GetStat = true;
+        }, {
+            StatName = "Health";
+            StatAmount = 2500;
+            GetStat = true;
+        }, {
+            StatName = "Defense";
+            StatAmount = 1000;
+            GetStat = true;
+        }, {
+            StatName = "Psychics";
+            StatAmount = 1000;
+            GetStat = true;
+        }, {
+            StatName = "Mobility";
+            StatAmount = 1500;
+            GetStat = true;
+        }};
+        Reward = 1000;
+        OneTime = true;
+        QuestName = "Fully Prepared";
+        QuestDescription = "Get 2,500 Health , 2,500 Power , 1,000 Defense , 1,000 Psychics , 1,500 Mobility";
+        Unlock = {
+            Icons = {"http://www.roblox.com/asset/?id=97145739489349"};
+            Desc = {"Magic Train"};
+        };
+    }, {
+        NeedToDo = {{
+            StatName = "Power";
+            StatAmount = 5000;
+            GetStat = true;
+        }, {
+            StatName = "Mobility";
+            StatAmount = 2500;
+            GetStat = true;
+        }};
+        Reward = 750;
+        OneTime = true;
+        QuestName = "Better Jump Higher";
+        QuestDescription = "GET 5,000 Power , 2,500 Mobility";
+        Unlock = {
+            Icons = {"http://www.roblox.com/asset/?id=79898714498636"};
+            Desc = {"Double Jump"};
+        };
+    }, {
+        NeedToDo = {{
+            StatName = "Psychics";
+            StatAmount = 3000;
+            GetStat = true;
+        }, {
+            StatName = "Magic";
+            StatAmount = 500;
+            GetStat = true;
+        }};
+        Reward = 750;
+        OneTime = true;
+        QuestName = "Some Magic";
+        QuestDescription = "GET 3,000 Psychics , 500 Magic";
+        Unlock = {
+            Icons = {"http://www.roblox.com/asset/?id=123663614797680"};
+            Desc = {"Water Walk"};
+        };
+    }, {
+        NeedToDo = {{
+            StatName = "Power";
+            StatAmount = 10000;
+            GetStat = true;
+        }, {
+            StatName = "Health";
+            StatAmount = 10000;
+            GetStat = true;
+        }, {
+            StatName = "Defense";
+            StatAmount = 3000;
+            GetStat = true;
+        }};
+        Reward = 1000;
+        OneTime = true;
+        QuestName = "No Train No Gain";
+        QuestDescription = "GET 10,000 Power , 10,000 Health , 3,000 Defense";
+        Unlock = {
+            Icons = {"http://www.roblox.com/asset/?id=98374560244178"};
+            Desc = {"Better Gym Kit"};
+        };
+    }, {
+        NeedToDo = {{
+            StatName = "Power";
+            StatAmount = 20000;
+            GetStat = true;
+        }, {
+            StatName = "Magic";
+            StatAmount = 5000;
+            GetStat = true;
+        }};
+        Reward = 1000;
+        OneTime = true;
+        QuestName = "Wands Store";
+        QuestDescription = "GET 20,000 Power , 5,000 Magic";
+        Unlock = {
+            Icons = {"http://www.roblox.com/asset/?id=120731103774333"};
+            Desc = {"Wands Store"};
+        };
+    }, {
+        NeedToDo = {{
+            StatName = "Psychics";
+            StatAmount = 75000;
+            GetStat = true;
+        }};
+        Reward = 1500;
+        OneTime = true;
+        QuestName = "To the SKY!";
+        QuestDescription = "GET 75,000 Psychics";
+        Unlock = {
+            Icons = {"http://www.roblox.com/asset/?id=79898714498636"};
+            Desc = {"Fly Ability"};
+        };
+    }, {
+        NeedToDo = {{
+            StatName = "Power";
+            StatAmount = 250000;
+            GetStat = true;
+        }, {
+            StatName = "Health";
+            StatAmount = 250000;
+            GetStat = true;
+        }, {
+            StatName = "Psychics";
+            StatAmount = 125000;
+            GetStat = true;
+        }, {
+            StatName = "Mobility";
+            StatAmount = 75000;
+            GetStat = true;
+        }};
+        Reward = 10000;
+        OneTime = true;
+        QuestName = "Milestones";
+        QuestDescription = "GET 250K Power , 250K Health , 125K Psychics , 75K Mobility";
+        Unlock = {
+            Icons = {"http://www.roblox.com/asset/?id=102575069630505"};
+            Desc = {"Many Tokens"};
+        };
+    }, {
+        NeedToDo = {{
+            StatName = "Mobility";
+            StatAmount = 250000;
+            GetStat = true;
+        }};
+        Reward = 4000;
+        OneTime = true;
+        QuestName = "Better Weights";
+        QuestDescription = "GET 250,000 Mobility";
+        Unlock = {
+            Icons = {"http://www.roblox.com/asset/?id=79898714498636"};
+            Desc = {"Weight Shop II"};
+        };
+    }, {
+        NeedToDo = {{
+            StatName = "Psychics";
+            StatAmount = 750000;
+            GetStat = true;
+        }, {
+            StatName = "Magic";
+            StatAmount = 150000;
+            GetStat = true;
+        }};
+        Reward = 3000;
+        OneTime = true;
+        QuestName = "Hide or Camp";
+        QuestDescription = "GET 750,000 Psychics , 150,000 Magic";
+        Unlock = {
+            Icons = {"http://www.roblox.com/asset/?id=79898714498636"};
+            Desc = {"Invisibility"};
+        };
+    }, {
+        NeedToDo = {{
+            StatName = "Power";
+            StatAmount = 1250000;
+            GetStat = true;
+        }, {
+            StatName = "Health";
+            StatAmount = 1500000;
+            GetStat = true;
+        }};
+        Reward = 5000;
+        OneTime = true;
+        QuestName = "Powerful Enough";
+        QuestDescription = "GET 1.25M Power , 1.5M Health";
+        Unlock = {
+            Icons = {"http://www.roblox.com/asset/?id=105691564306778"};
+            Desc = {"Access to more Main Quests"};
+        };
+    }, {
+        NeedToDo = {{
+            StatName = "Power";
+            StatAmount = 1500000;
+            GetStat = true;
+        }, {
+            StatName = "Health";
+            StatAmount = 3500000;
+            GetStat = true;
+        }};
+        Reward = 7500;
+        OneTime = true;
+        QuestName = "Self Defense";
+        QuestDescription = "GET 1.5M Defense , 3.5M Health";
+        Unlock = {
+            Icons = {"http://www.roblox.com/asset/?id=85112324798583"};
+            Desc = {"Damage Reflect [10% DMG]"};
+        };
+    }, {
+        NeedToDo = {{
+            StatName = "Power";
+            StatAmount = 10000000;
+            GetStat = true;
+        }, {
+            StatName = "Health";
+            StatAmount = 10000000;
+            GetStat = true;
+        }, {
+            StatName = "Defense";
+            StatAmount = 5000000;
+            GetStat = true;
+        }, {
+            StatName = "Psychics";
+            StatAmount = 5000000;
+            GetStat = true;
+        }, {
+            StatName = "Magic";
+            StatAmount = 2500000;
+            GetStat = true;
+        }};
+        Reward = 30000;
+        OneTime = true;
+        QuestName = "The Great Milestone";
+        QuestDescription = "GET 10M Power, 10M Health , 5M Defense , 5M Psychics , 2.5M Magic";
+        Unlock = {
+            Icons = {"http://www.roblox.com/asset/?id=102575069630505"};
+            Desc = {"Many Tokens"};
+        };
+    }};
+    SideQuest = {{
+        NeedToDo = {{
+            StatName = "DishesCleaned";
+            StatAmount = 5;
+            GetStat = false;
+        }};
+        Reward = 100;
+        OneTime = false;
+        QuestName = "Be clean";
+        QuestDescription = "Clean atleast 5 Dishes";
+    }};
+    QuestPads = {{1}};
+}
