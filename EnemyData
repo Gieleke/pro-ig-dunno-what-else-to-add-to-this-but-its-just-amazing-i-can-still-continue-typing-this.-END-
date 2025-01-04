@@ -1,0 +1,45 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Decompiler will be improved soon!
+-- Decompiled with Konstant V2.1, a fast Luau decompiler made in Luau by plusgiant5 (https://discord.gg/wyButjTMhM)
+-- Decompiled on 2025-01-04 11:47:46
+-- Luau version 6, Types version 3
+-- Time taken: 0.000572 seconds
+
+return {{
+    Name = "Bacon";
+    Health = 25;
+    Damage = 5;
+    AttackSpeed = 1;
+    WalkSpeed = 16;
+    JumpHeight = 4;
+    CanFly = false;
+    Reach = 5;
+    Max = 10;
+    Spawntime = 2.5;
+    Drops = {};
+}, {
+    Name = "Red Bacon";
+    Health = 50000;
+    Damage = 12500;
+    AttackSpeed = 1;
+    WalkSpeed = 35;
+    JumpHeight = 7;
+    Reach = 6;
+    Max = 6;
+    Spawntime = 5;
+    CanFly = false;
+    Drops = {};
+}, {
+    Name = "Giga Bacon";
+    Health = 10000000;
+    Damage = 2000000;
+    AttackSpeed = 1.25;
+    WalkSpeed = 90;
+    JumpHeight = 12;
+    CanFly = true;
+    Max = 3;
+    Spawntime = 15;
+    Reach = 9;
+    Drops = {};
+}}
