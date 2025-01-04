@@ -1,0 +1,127 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Decompiler will be improved soon!
+-- Decompiled with Konstant V2.1, a fast Luau decompiler made in Luau by plusgiant5 (https://discord.gg/wyButjTMhM)
+-- Decompiled on 2025-01-04 11:47:42
+-- Luau version 6, Types version 3
+-- Time taken: 0.001523 seconds
+
+return {
+    Normal = {{
+        StoreName = "Starter Store";
+        StoreContent = {{
+            ID = 8;
+            Price = 500;
+        }, {
+            ID = 9;
+            Price = 500;
+        }, {
+            ID = 10;
+            Price = 550;
+        }, {
+            ID = 11;
+            Price = 900;
+        }, {
+            ID = 12;
+            Price = 950;
+        }, {
+            ID = 13;
+            Price = 1000;
+        }};
+    }, {
+        StoreName = "Starter Store";
+        StoreContent = {{
+            ID = 14;
+            Price = 250;
+        }, {
+            ID = 15;
+            Price = 600;
+        }, {
+            ID = 16;
+            Price = 2250;
+        }, {
+            ID = 17;
+            Price = 3650;
+        }, {
+            ID = 18;
+            Price = 6250;
+        }, {
+            ID = 19;
+            Price = 9150;
+        }, {
+            ID = 20;
+            Price = 75000;
+        }, {
+            ID = 21;
+            Price = 107500;
+        }, {
+            ID = 22;
+            Price = 175000;
+        }, {
+            ID = 23;
+            Price = 1000000;
+        }};
+    }};
+    Weights = {{
+        StoreName = "Basic Weights";
+        StoreContent = {{
+            ID = 1;
+            Price = 150;
+        }, {
+            ID = 2;
+            Price = 350;
+        }, {
+            ID = 3;
+            Price = 750;
+        }};
+    }, {
+        StoreName = "Advanced Weights";
+        StoreContent = {{
+            ID = 4;
+            Price = 1650;
+        }, {
+            ID = 5;
+            Price = 3350;
+        }, {
+            ID = 6;
+            Price = 6750;
+        }, {
+            ID = 7;
+            Price = 13750;
+        }};
+    }};
+    Wands = {{
+        StoreName = "Main Wands";
+        StoreContent = {{
+            ID = 1;
+            Price = 200;
+        }, {
+            ID = 2;
+            Price = 450;
+        }, {
+            ID = 3;
+            Price = 1250;
+        }, {
+            ID = 4;
+            Price = 2250;
+        }, {
+            ID = 5;
+            Price = 5000;
+        }, {
+            ID = 6;
+            Price = 9250;
+        }, {
+            ID = 7;
+            Price = 20000;
+        }, {
+            ID = 8;
+            Price = 29500;
+        }, {
+            ID = 9;
+            Price = 45000;
+        }, {
+            ID = 10;
+            Price = 150000;
+        }};
+    }};
+}
