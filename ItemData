@@ -1,0 +1,147 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Decompiler will be improved soon!
+-- Decompiled with Konstant V2.1, a fast Luau decompiler made in Luau by plusgiant5 (https://discord.gg/wyButjTMhM)
+-- Decompiled on 2025-01-04 11:47:45
+-- Luau version 6, Types version 3
+-- Time taken: 0.003260 seconds
+
+return {{
+    Name = "Rock";
+    Desc = "A bit sharp and helps a bit with the damage";
+    Type = 6;
+    Rarity = 1;
+    Bonuses = {{"Damage", 15}};
+}, {
+    Name = "Stick";
+    Desc = "You can protect yourself a bit with it";
+    Type = 6;
+    Rarity = 1;
+    Bonuses = {{"Damage", 25}};
+}, {
+    Name = "Can";
+    Desc = "Tiny Health Booster";
+    Type = 2;
+    Rarity = 2;
+    Bonuses = {{"Health", 0.25}};
+}, {
+    Name = "Amber";
+    Desc = "A very common crystal";
+    Type = 2;
+    Rarity = 1;
+    Bonuses = {{"Psychics", 0.4}};
+}, {
+    Name = "Potato";
+    Desc = "Better Health Booster";
+    Type = 2;
+    Rarity = 2;
+    Bonuses = {{"Health", 0.5}};
+}, {
+    Name = "Wrench";
+    Desc = "Provides you some extra strength and power";
+    Type = 4;
+    Rarity = 1;
+    Bonuses = {{"Power", 0.5}, {"Defense", 0.5}};
+}, {
+    Name = "Buffer";
+    Desc = "A rare natural item that slightly boost all training stats";
+    Type = 2;
+    Rarity = 1;
+    Bonuses = {{"Health", 0.4}, {"Power", 0.4}, {"Defense", 0.4}, {"Psychics", 0.4}, {"Magic", 0.4}, {"Mobility", 0.4}};
+}, {
+    Name = "Gloves";
+    Desc = "Sometimes you really need get protected";
+    Type = 4;
+    Rarity = 1;
+    Bonuses = {{"Power", 0.6}, {"Defense", 0.6}};
+}, {
+    Name = "Basic Necklace";
+    Desc = "Just a basic Necklace , you can also use it for style";
+    Type = 1;
+    Rarity = 1;
+    Bonuses = {{"Health", 0.6}, {"Power", 0.6}};
+}, {
+    Name = "Amethyst";
+    Desc = "";
+    Type = 2;
+    Rarity = 1;
+    Bonuses = {{"Psychics", 0.6}, {"Magic", 0.6}};
+}, {
+    Name = "Starter Guide";
+    Desc = "Makes you train better";
+    Type = 2;
+    Rarity = 1;
+    Bonuses = {{"Power", 0.8}, {"Defense", 0.8}, {"Magic", 0.8}};
+}, {
+    Name = "Kit";
+    Desc = "Get a starter boost on 4 training stats";
+    Type = 4;
+    Rarity = 1;
+    Bonuses = {{"Power", 0.5}, {"Health", 0.5}, {"Psychics", 0.5}, {"Defense", 0.5}, {"Magic", 0.5}, {"Mobility", 0.5}};
+}, {
+    Name = "Wooden Sword";
+    Desc = "Deal some Extra Damage towards the enemies";
+    Type = 6;
+    Rarity = 1;
+    Bonuses = {{"Damage", 75}};
+}, {
+    Name = "Apple";
+    Desc = "An apple is always useful to don't stay hungry";
+    Type = 4;
+    Rarity = 1;
+    Bonuses = {{"Power", 0.4}, {"Health", 0.4}};
+}, {
+    Name = "Watermelon";
+    Desc = "Watermelon is one of the largest fruits also cheap";
+    Type = 4;
+    Rarity = 1;
+    Bonuses = {{"Power", 0.75}, {"Health", 0.75}};
+}, {
+    Name = "Exotic Fruit";
+    Desc = "Exotic Fruits aren't really rare , but its great to taste it sometimes";
+    Type = 4;
+    Rarity = 1;
+    Bonuses = {{"Power", 1.25}, {"Health", 1.5}, {"Mobility", 0.75}};
+}, {
+    Name = "Radioactive Fruit";
+    Desc = "This fruid is known to make many sick , can you handle it ?";
+    Type = 4;
+    Rarity = 1;
+    Bonuses = {{"Health", 2.5}, {"Psychics", 1.5}};
+}, {
+    Name = "Ocean Fruit";
+    Desc = "A mysterious fruit often found in the ocean";
+    Type = 4;
+    Rarity = 1;
+    Bonuses = {{"Power", 2}, {"Health", 2}, {"Psychics", 2.5}, {"Magic", 2.5}};
+}, {
+    Name = "Crystal Fruit";
+    Desc = "How can you eat a crystal ? This is kinda strange.";
+    Type = 4;
+    Rarity = 1;
+    Bonuses = {{"Power", 5}, {"Defense", 5}, {"Health", 2}};
+}, {
+    Name = "Strange Fruit";
+    Desc = "A very rare fruit that is known to make grinders stronger";
+    Type = 4;
+    Rarity = 1;
+    Bonuses = {{"Power", 25}, {"Health", 25}, {"Psychics", 25}, {"Mobility", 25}, {"Magic", 25}, {"Mobility", 25}};
+}, {
+    Name = "Black Apple";
+    Desc = "An ultra rare apple 125x more nutritive than usual";
+    Type = 4;
+    Rarity = 1;
+    Bonuses = {{"Power", 55}, {"Health", 55}};
+}, {
+    Name = "Magma Fruit";
+    Desc = "This fruit looks like it will melt you , you will eat it ?";
+    Type = 4;
+    Rarity = 1;
+    Bonuses = {{"Power", 75}, {"Health", 50}, {"Defense", 40}};
+}, {
+    Name = "Soul Fruit";
+    Desc = "This soul used to be like you , would you dare it ?";
+    Type = 4;
+    Rarity = 1;
+    Bonuses = {{"Power", 200}, {"Magic", 400}, {"Psychics", 600}};
+}}
