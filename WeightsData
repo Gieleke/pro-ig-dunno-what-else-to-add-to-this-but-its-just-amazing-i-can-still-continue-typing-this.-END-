@@ -1,0 +1,44 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Decompiler will be improved soon!
+-- Decompiled with Konstant V2.1, a fast Luau decompiler made in Luau by plusgiant5 (https://discord.gg/wyButjTMhM)
+-- Decompiled on 2025-01-04 11:47:39
+-- Luau version 6, Types version 3
+-- Time taken: 0.000620 seconds
+
+return {{
+    Weight = 2.5;
+    Name = "Small Weight";
+    Desc = "Everyone has to start from somewhere";
+    Distance = 0.3;
+}, {
+    Weight = 5;
+    Name = "Light Weight";
+    Desc = "When you progress a bit you always want to upgrade";
+    Distance = 0.3;
+}, {
+    Weight = 10;
+    Name = "Weight";
+    Desc = "Its a huge goal to always upgrade from small to big weights";
+    Distance = 0.3;
+}, {
+    Weight = 20;
+    Name = "Big Weight";
+    Desc = "The weight that the strongest gym grinders always use";
+    Distance = 0.425;
+}, {
+    Weight = 40;
+    Name = "Full Iron";
+    Desc = "A weight so heavy that many fears to even use it";
+    Distance = 0.525;
+}, {
+    Weight = 80;
+    Name = "Giant Weight";
+    Desc = "Only insanity can make you carry this hard";
+    Distance = 0.525;
+}, {
+    Weight = 160;
+    Name = "Concrete Slab";
+    Desc = "So heavy that no one without super powers would dare to carry";
+    Distance = 0.525;
+}}
