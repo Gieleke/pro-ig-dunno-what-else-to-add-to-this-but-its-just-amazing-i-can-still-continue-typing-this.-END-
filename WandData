@@ -1,0 +1,49 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Decompiler will be improved soon!
+-- Decompiled with Konstant V2.1, a fast Luau decompiler made in Luau by plusgiant5 (https://discord.gg/wyButjTMhM)
+-- Decompiled on 2025-01-04 11:47:44
+-- Luau version 6, Types version 3
+-- Time taken: 0.000687 seconds
+
+return {{
+    Multi = 1.15;
+    Name = "Primitive Wand";
+    Desc = "It got its job done back in the days";
+}, {
+    Multi = 1.3;
+    Name = "Small Wand";
+    Desc = "Useful doing small tasks";
+}, {
+    Multi = 1.55;
+    Name = "Larger Primitive Wand";
+    Desc = "This wand had better days";
+}, {
+    Multi = 1.8;
+    Name = "Basic Wand";
+    Desc = "Just a regular wand if you want to improve";
+}, {
+    Multi = 2.15;
+    Name = "Improved Wand";
+    Desc = "For a higher price this wand is capable to do more stuff";
+}, {
+    Multi = 2.45;
+    Name = "Premium Wand";
+    Desc = "This is the best version of the basic wand";
+}, {
+    Multi = 2.8;
+    Name = "Crystal Wand";
+    Desc = "Crystal wands are stronger than regular Glass wands";
+}, {
+    Multi = 3.25;
+    Name = "Star Wand";
+    Desc = "The Star wand is really powerful";
+}, {
+    Multi = 3.6;
+    Name = "Ruby Wand";
+    Desc = "The power inside Red Crystal makes this  wand a great tool";
+}, {
+    Multi = 5;
+    Name = "Magic Wand";
+    Desc = "This is some true Magic Quality";
+}}
