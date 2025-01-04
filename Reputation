@@ -1,0 +1,41 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Decompiler will be improved soon!
+-- Decompiled with Konstant V2.1, a fast Luau decompiler made in Luau by plusgiant5 (https://discord.gg/wyButjTMhM)
+-- Decompiled on 2025-01-04 11:47:41
+-- Luau version 6, Types version 3
+-- Time taken: 0.001109 seconds
+
+return {{
+    RepName = "Helper";
+    MinimumRep = 10;
+    ColorRep = Color3.fromRGB(236, 255, 165);
+}, {
+    RepName = "Protector";
+    MinimumRep = 50;
+    ColorRep = Color3.fromRGB(216, 255, 179);
+}, {
+    RepName = "Guardian";
+    MinimumRep = 200;
+    ColorRep = Color3.fromRGB(165, 255, 173);
+}, {
+    RepName = "Hero";
+    MinimumRep = 500;
+    ColorRep = Color3.fromRGB(155, 255, 240);
+}, {
+    RepName = "Superhero";
+    MinimumRep = 1500;
+    ColorRep = Color3.fromRGB(156, 201, 249);
+}, {
+    RepName = "Legend";
+    MinimumRep = 4000;
+    ColorRep = Color3.fromRGB(124, 214, 255);
+}, {
+    RepName = "Angel";
+    MinimumRep = 10000;
+    ColorRep = Color3.fromRGB(28, 255, 206);
+}, {
+    RepName = "Divine";
+    MinimumRep = 25000;
+    ColorRep = Color3.fromRGB(255, 225, 8);
+}}
