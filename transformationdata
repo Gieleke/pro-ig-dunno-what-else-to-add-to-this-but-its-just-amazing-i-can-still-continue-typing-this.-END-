@@ -1,0 +1,35 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Decompiler will be improved soon!
+-- Decompiled with Konstant V2.1, a fast Luau decompiler made in Luau by plusgiant5 (https://discord.gg/wyButjTMhM)
+-- Decompiled on 2025-01-04 11:47:35
+-- Luau version 6, Types version 3
+-- Time taken: 0.000599 seconds
+
+return {{
+    StatMulti = {
+        Power = 1.1;
+        Health = 1.1;
+        Defense = 1;
+        Psychics = 1;
+        Magic = 1;
+        Mobility = 1;
+    };
+    Name = "Gym Kit";
+    Desc = "Gives you a set clotches and bandages that slightly helps you";
+    Icon = "http://www.roblox.com/asset/?id=123843217020966";
+    Rarity = 1;
+}, {
+    StatMulti = {
+        Power = 1.12;
+        Health = 1.12;
+        Defense = 1.07;
+        Psychics = 1.05;
+        Magic = 1.05;
+        Mobility = 1.05;
+    };
+    Name = "Gym Kit V2";
+    Desc = "Not a very strong kit but a major improvement from the old one";
+    Icon = "http://www.roblox.com/asset/?id=98374560244178";
+    Rarity = 1;
+}}
